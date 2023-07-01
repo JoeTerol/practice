@@ -39,3 +39,8 @@
 // document.write("la Frase tiene las sigueintes vocales " + vocales);
 
 
+const frase = window.prompt("ingrese una frase");
+
+const cantidad = (frase.match(/[aeiou]/gi).length);
+
+document.write("la Frase tiene las sigueintes cantidad  " + cantidad);
